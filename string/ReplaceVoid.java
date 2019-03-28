@@ -7,6 +7,7 @@ public class ReplaceVoid {
 
     public static String replace(String str) {
         StringBuilder res = new StringBuilder();
+        System.out.println(str.length());
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == ' ') {
                 res.append("%20");

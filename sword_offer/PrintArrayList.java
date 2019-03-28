@@ -1,5 +1,7 @@
 package com.isea.dw.sword_offer;
 
+import java.util.ArrayList;
+
 /**
  * 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
  */
@@ -25,6 +27,7 @@ public class PrintArrayList {
         System.out.println(res.toString());
     }
 
+
     public static void main(String[] args) {
 
         Node<Integer> node1 = new Node<Integer>(10);
@@ -32,6 +35,5 @@ public class PrintArrayList {
         node1.next.next = new Node(30);
         node1.next.next.next = new Node(40);
         printArrayList(node1);
-
     }
 }
