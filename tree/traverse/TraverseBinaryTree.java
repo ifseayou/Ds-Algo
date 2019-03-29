@@ -1,4 +1,4 @@
-package com.isea.dw.tree;
+package com.isea.dw.tree.traverse;
 
 /**
  * 遍历二叉树，前序，中序，后序的递归写法

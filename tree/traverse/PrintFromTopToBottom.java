@@ -1,4 +1,4 @@
-package com.isea.dw.tree;
+package com.isea.dw.tree.traverse;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
