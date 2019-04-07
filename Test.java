@@ -1,8 +1,5 @@
 package com.isea.dw;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-
 public class Test {
 
     public class TreeNode {
@@ -22,7 +19,8 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        Test test = new Test();
+        double v = Math.sqrt(2) / 2;
+        System.out.println(v);
 
     }
 }
