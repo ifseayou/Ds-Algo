@@ -108,5 +108,4 @@ public class TrieTree {
         System.out.println(trie.search("isea")); // 3
         System.out.println(trie.prefixNum("isea")); // 3
     }
-
 }
