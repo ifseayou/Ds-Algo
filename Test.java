@@ -21,7 +21,6 @@ public class Test {
     public static void main(String[] args) {
         double v = Math.sqrt(2) / 2;
         System.out.println(v);
-
     }
 }
 
