@@ -1,26 +1,37 @@
 package com.isea.dw;
 
-public class Test {
+import java.util.Stack;
 
-    public class TreeNode {
-        int val = 0;
-        TreeNode left = null;
-        TreeNode right = null;
+public class Test<T> {
 
-        public TreeNode(int val) {
-            this.val = val;
-
+    public  class Node {
+        private T t;
+        private Node next;
+        public Node(T t){
+            this.t = t;
         }
     }
+    public Node delete(Node dummyHead,int N){
+        Stack<Node> ts = new Stack<>();
+        Node cur = dummyHead.next;
+        while(cur!= null){
+            ts.push(cur);
+            cur = cur.next;
+        }
+        for (int i = 0; i < N; i++) {
+            ts.pop();
+        }
+        Node res = ts.pop();
 
+        Node pre = dummyHead;
+        while(pre.next != res){
+            pre = pre.next;
+        }
 
-    public boolean VerifySquenceOfBST(int [] sequence) {
-        return false;
-    }
-
-    public static void main(String[] args) {
-        double v = Math.sqrt(2) / 2;
-        System.out.println(v);
+        cur = pre.next;
+        pre.next = cur.next;
+        cur.next = null;
+        return dummyHead;
     }
 }
 
