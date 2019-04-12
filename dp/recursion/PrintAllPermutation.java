@@ -1,4 +1,4 @@
-package com.isea.dw.dp;
+package com.isea.dw.dp.recursion;
 
 /**
  * 打印字符串的全排列

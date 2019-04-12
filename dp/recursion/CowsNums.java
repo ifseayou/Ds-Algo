@@ -1,4 +1,4 @@
-package com.isea.dw.dp;
+package com.isea.dw.dp.recursion;
 
 /**
  * 母牛每年生一只母牛，新出生的母牛成长三年后，也能生育一只母牛，假设牛不会死，求N年之后，母牛的数量

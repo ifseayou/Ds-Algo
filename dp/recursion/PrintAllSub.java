@@ -1,4 +1,4 @@
-package com.isea.dw.dp;
+package com.isea.dw.dp.recursion;
 
 /**
  * 打印所有的一个字符串的所有子序列

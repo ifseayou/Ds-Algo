@@ -1,4 +1,4 @@
-package com.isea.dw.dp;
+package com.isea.dw.dp.recursion;
 
 /**
  * 汉诺塔问题：
