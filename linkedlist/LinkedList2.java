@@ -14,7 +14,7 @@ package com.isea.dw.linkedlist;
  * <p>
  * 技巧：使用虚拟头结点，这样能够在配合size，对链表删除和添加都不需要考虑特殊的情况。
  */
-public class LinkedList<T> {
+public class LinkedList2<T> {
     private class Node {
         private T val;
         private Node next;
@@ -42,7 +42,7 @@ public class LinkedList<T> {
     private Node dummyHead;
     private int size; // 表征链表的长度信息
 
-    public LinkedList() { // 初始化链表，size 为零，虚拟头结点是的val值是为null的
+    public LinkedList2() { // 初始化链表，size 为零，虚拟头结点是的val值是为null的
         dummyHead = new Node(null, null);
         size = 0;
     }
@@ -144,7 +144,7 @@ public class LinkedList<T> {
     }
 
     public static void main(String[] args) {
-        LinkedList<Integer> linkedList = new LinkedList<>();
+        LinkedList2<Integer> linkedList = new LinkedList2<>();
         for (int i = 0 ; i < 5 ; i ++){
             linkedList.addFirst(i);
             System.out.println(linkedList);

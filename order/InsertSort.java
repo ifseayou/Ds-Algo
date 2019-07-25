@@ -4,7 +4,11 @@ import static com.isea.dw.checker.OrderChecker.*;
 import static com.isea.dw.checker.OrderChecker.generateRandomArray;
 import static com.isea.dw.checker.OrderChecker.printArray;
 
-// 插入排序实现
+/**
+ *  插入排序实现 1,23,4,8,9
+ *  选择排序的思路：默认当前i位置之前的元素都已经排好了序了，当前的i位置和i之前位置（到index = 0）的元素进行比较，
+ *  外层循环控制次数，
+ */
 public class InsertSort {
     public static void inertSort(int[] arr) {
         if (arr.length < 2 || arr == null) {
